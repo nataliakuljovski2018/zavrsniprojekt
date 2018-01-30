@@ -1,0 +1,194 @@
+html {
+		margin:0;
+		padding:0;
+	height:100%;
+}
+body {
+	margin:0;
+		padding:0;
+	background:#000;
+	color:#FFF;
+	height:100%;
+	font-family:'Fondamento',cursive;
+}
+.homepage-menu {
+	display:block;
+	position:fixed;
+	width:100%;
+	left:0;
+	top:0;
+	margin:0;
+	padding:0;
+	z-index:100;
+	background:rgba(255,255,255,0.80);
+	border-radius:3px;
+	text-align:center;
+	list-style:none;
+}
+.homepage-menu li {
+	display:inline-block;
+	padding:30px 0 30px 0;
+	margin:0 10px 0;
+}
+.homepage-menu a {
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+}
+.homepage-intro {
+	background-image:url(../images/home.jpg);
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.homepage-intro .homepage-social {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+}
+.homepage-social i {
+	font-size:30px;
+}
+.homepage-social a {
+	color:#FFF;
+	text-decoration:none;
+	margin-left:5px;
+}
+.homepage-name {
+	position:absolute;
+	left:50%;
+	top:50%;
+	-webkit-transform:translate(-50%,-50%);
+	 -ms-transform:translate(-50%,-50%);
+	 transform:translate(-50%,-50%);
+}
+.about-me {
+	min-height:100%;
+}
+.about-me__image {
+	background-image:url(../images/about-me.jpg);
+	height:100vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+}
+.about-me__text {
+	text-align:center;
+}
+.about-me__text h2 {
+	font-size:40px;
+}
+.about-me__text p {
+	max-width:1100px;
+	margin:80px auto 100px;
+}
+.my-works {
+	padding-top:120px;
+}
+.my-works__title {
+	text-align:center;
+}
+.my-works__title h2 {
+	font-size:40px;
+	text-transform: uppercase;
+}
+/*slike na pojedinim stranicama*/
+.row {
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	padding:0 4px;
+}
+.column {
+	-ms-flex:25%;
+	flex:25%;
+	max-width:40%;
+	padding:0 4px;
+}
+.column img {
+	margin-top:8px;
+	vertical-align: middle;
+}
+/*završetak slika na stranicama*/
+.my-works__slider {
+	max-width:1200px;
+	margin:70px auto 50px;
+}
+.slider__image img {
+	width:100%;
+}
+.my-works__images {
+	margin:70px auto 150px;
+	font-size:0;
+	max-width:1000px;
+}
+.my-works__images a {
+	display:inline-block;
+	width:33.3333%;
+	padding:20px;
+	box-sizing:border-box;
+}
+.my-works__images img {
+	width:100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.contact {
+	background-image:url(../images/kontaktpozadina.jpg);
+	padding:100px 0;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.contact__title {
+	text-align:center;
+}
+.contact__title h3 {
+	font-size:40px;
+	text-transform:uppercase;
+}
+input[type=text],select,textarea {
+	width:100%;
+	display:block;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+	margin-bottom:16px;
+	resize:vertical;
+	margin-bottom:20px;
+}
+input[type=submit] {
+	background-color:#4CAF50;
+	color:white;
+	padding:12px 20px;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+}
+input[type=submit]:hover {
+	background-color:#45a049;
+}
+label {
+	width:100%;
+	display:block;
+	margin-bottom:5px;
+}
+.container {
+	padding:20px;
+	max-width:800px;
+	margin: 0 auto
+}
